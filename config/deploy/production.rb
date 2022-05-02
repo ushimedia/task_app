@@ -49,9 +49,9 @@
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------
- server "8.179.6.60",
+ server "18.179.6.60",
    user: "ec2-user",
-   roles: %w{web app},
+   roles: %w{web db app},
    ssh_options: {
      user: "ec2-user", # overrides user setting above
      keys: %w(/home/ushioda/.ssh/dic_sample.pem),
