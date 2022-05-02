@@ -28,6 +28,9 @@ gem 'jbuilder', '~> 2.7'
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.2', require: false
 gem 'unicorn'  # 追記
+gem 'image_processing', '~> 1.2'
+gem 'aws-sdk-s3', require: false
+gem 'dotenv-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
